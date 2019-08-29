@@ -15,6 +15,8 @@ Rails.application.routes.draw do
 
     # body params
     post "/body_params_url" => "params_examples#body_params_action"
+    post "/guess_body_url" => "params_examples#guess_query_action"
+    post "/login" => "params_examples#login"
   end
 end
 
